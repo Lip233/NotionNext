@@ -273,6 +273,12 @@ const BLOG = {
       artist: 'XIKINIE',
       url: 'http://music.163.com/song/media/outer/url?id=1807891673.mp3',
       cover: 'https://p1.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+    },
+        {
+      name: '5:20AM',
+      artist: '刀酱',
+      url: 'http://music.163.com/song/media/outer/url?id=2124731026.mp3',
+      cover: 'http://p1.music.126.net/RjiI9yP2Fnxx5cxiTVCIrQ==/109951169318905148.jpg'
     }
   ],
   MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
